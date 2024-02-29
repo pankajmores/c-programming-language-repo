@@ -1,0 +1,19 @@
+#include<stdio.h>         //Q::KEEP TAKING NO FROM USER UNTIL USER ENTERS AN ODD NO.
+
+int main(){
+    int n;
+    do{
+        printf("Enter number :");
+        scanf("%d", &n);
+        printf("%d\n", n);   
+
+        if(n % 2 != 0){      //if(n % n == 0)    for Q in which we have to stop code 
+            break;                                    //   multiple of any no. n
+        }
+    } while(1);
+    printf("Thk Yu");       
+
+
+
+    return 0;
+}
